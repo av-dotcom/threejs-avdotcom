@@ -216,12 +216,12 @@ export const myProjects = [
 
 export const calculateSizes = (isSmall, isMobile, isTablet) => {
     return {
-        deskScale: isSmall ? 0.19 : isMobile ? 0.18 : 0.27,
+        deskScale: isSmall ? 0.20 : isMobile ? 0.18 : 0.27,
         deskPosition: isMobile ? [-0.5, -4.3, 0] : [0.25, -6.5, 0],
-        cubePosition: isSmall ? [4, -11, 0] : isMobile ? [5, -5, 0] : isTablet ? [5, -5, 0] : [10, -9.5, 0],
+        cubePosition: isSmall ? [4, -8, 0] : isMobile ? [5, -5, 0] : isTablet ? [6, -9, 0] : [11, -9, 0],
         reactLogoPosition: isSmall ? [4.5, 5.4, 0] : isMobile ? [5, 4, 0] : isTablet ? [5, 4, 0] : [12, 2, 0],
-        ringPosition: isSmall ? [-9, 9, 0] : isMobile ? [-10, 10, 0] : isTablet ? [-12, 10, 0] : [-24, 5, 0],
-        targetPosition: isSmall ? [-6, -10, -8] : isMobile ? [-9, -10, -10] : isTablet ? [-11, -7, -10] : [-13, -13, -10],
+        ringPosition: isSmall ? [-9, 9, 0] : isMobile ? [-10, 10, 0] : isTablet ? [-12, 9, 0] : [-24, 5, 0],
+        targetPosition: isSmall ? [-6, -10, -8] : isMobile ? [-9, -10, -10] : isTablet ? [-9, -7, -10] : [-13, -13, -10],
     };
 };
 
@@ -231,7 +231,8 @@ export const workExperiences = [
         name: 'ITTI Digital',
         pos: 'Software Developer',
         duration: '2021 - Present',
-        title: "Contributed to Paraguay’s first fully digital bank for over one million users, using Java/Spring Boot, NodeJS, NestJS, Ruby/Rails and React. Optimized React apps with custom hooks and modern features (Hooks, Context API). Developed RESTful APIs and microservices, integrated Oracle and PostgreSQL, and deployed using Docker and AWS. Implemented JWT and OAuth security.",
+        title: "Contributed to Paraguay’s first fully digital bank for over one million users, using Java/Spring Boot, NodeJS, Ruby/Rails, and React. Optimized React apps with modern features. Developed APIs, integrated Oracle and PostgreSQL, and deployed with Docker and AWS.",
+        stack: "Tech Stack: React.js, Next.js, TypeScript/JavaScript, Java/Spring Boot, NodeJS, NestJS, Ruby/Rails, Docker, Oracle DB, SQL.",
         icon: '/assets/itti.png',
         animation: 'victory',
     },
@@ -240,7 +241,8 @@ export const workExperiences = [
         name: 'Metabond Blockchain Solutions',
         pos: 'Full-Stack Developer',
         duration: '2020 - 2021',
-        title: "Led the development of Metabond’s NFT and Launchpad platform. Improved digital accessibility by implementing aria-labels and keyboard navigation. Enhanced performance by reducing component rendering times by 60% through the adoption of React best practices.",
+        title: "Led development of Metabond’s NFT and Launchpad platform. Improved accessibility with aria-labels and keyboard navigation. Boosted performance by cutting component rendering times 60% using React best practices.",
+        stack: "Tech Stack: Next.js, TypeScript, MongoDB, Prisma, Node.js, NoSQL, Vercel, AWS S3, Solidity.",
         icon: '/assets/metabond.png',
         animation: 'clapping',
     },
@@ -249,7 +251,8 @@ export const workExperiences = [
         name: 'Tiendas Maquicenter',
         pos: 'Full-Stack Developer',
         duration: '2020 - 2020',
-        title: "Developed the frontend of a large-scale e-commerce store with React, delivering a responsive, user-friendly experience for over 5,000 products. Collaborated with a team to integrate a PHP and PostgreSQL backend, ensuring smooth operation and efficient data management.",
+        title: "Developed the frontend for a large e-commerce store with React, delivering a responsive experience for 5,000+ products. Collaborated on PHP/PostgreSQL backend integration, ensuring smooth operation and efficient data management.",
+        stack: "Tech Stack: React.js, Redux, Axios, TailwindCSS, Laravel, PostgreSQL.",
         icon: '/assets/tiendasmaquicenter.png',
         animation: 'salute',
     },

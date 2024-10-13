@@ -25,7 +25,7 @@ const About = () => {
                         <div>
                             <p className="grid-headtext">I’m a Full-Stack Developer</p>
                             <p className="grid-subtext">
-                                With 4+ years of experience, I have honed my skills in both frontend and backend dev, creating dynamic
+                                With 4+ years of experience, I have sharpened my skills in both frontend and backend dev, creating dynamic
                                 and responsive websites.
                             </p>
                         </div>
