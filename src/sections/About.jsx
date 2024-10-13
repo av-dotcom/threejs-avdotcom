@@ -40,7 +40,7 @@ const About = () => {
                             <p className="grid-headtext">Tech Stack</p>
                             <p className="grid-subtext">
                                 I specialize in a variety of languages, frameworks, and tools that allow me to build robust and scalable
-                                applications
+                                applications.
                             </p>
                         </div>
                     </div>
@@ -63,8 +63,8 @@ const About = () => {
                         </div>
                         <div>
                             <p className="grid-headtext">I’m very flexible with time zone communications & locations</p>
-                            <p className="grid-subtext">I&apos;m based in Asuncion, Paraguay and open to remote work worldwide.</p>
-                            <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
+                            <p className="grid-subtext">I&apos;m based in Asunción, Paraguay. and open to remote work worldwide.</p>
+                            <Button name="Some of my work" isBeam containerClass="w-full mt-10" href="#work" />
                         </div>
                     </div>
                 </div>
@@ -92,7 +92,7 @@ const About = () => {
                         />
 
                         <div className="space-y-2">
-                            <p className="grid-subtext text-center">Contact me</p>
+                            <p className="grid-subtext text-center">Email me</p>
                             <div className="copy-container" onClick={handleCopy}>
                                 <img src={hasCopied ? 'assets/tick.svg' : 'assets/copy.svg'} alt="copy" />
                                 <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white">me@avilaca.com</p>
