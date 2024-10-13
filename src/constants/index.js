@@ -252,7 +252,7 @@ export const workExperiences = [
         pos: 'Full-Stack Developer',
         duration: '2020 - 2020',
         title: "Developed the frontend for a large e-commerce store with React, delivering a responsive experience for 5,000+ products. Collaborated on PHP/PostgreSQL backend integration, ensuring smooth operation and efficient data management.",
-        stack: "Tech Stack: React.js, Redux, Axios, TailwindCSS, Laravel, PostgreSQL.",
+        stack: "Tech Stack: React.js, Redux, Axios, TailwindCSS, PHP, Laravel, PostgreSQL.",
         icon: '/assets/tiendasmaquicenter.png',
         animation: 'salute',
     },
